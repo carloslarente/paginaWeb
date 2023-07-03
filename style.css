@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 5;
+  padding: 0;
+  color: #00FF00;
+  background-color: black;
+ background-image: url(fundo.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center center ;
+}
+
+h1 {
+  font-family: Comic Sans;
+  background-color: #363636;
+  color: #7FFF00;
+}
+h2 {
+  font-family: Comic Sans;
+  background-color: #4F4F4F;
+  color: #00FF00;
+}
+h3 {
+  font-family: Comic Sans;
+  background-color: #696969;
+  color: #7FFF00;
+}
+h4 {
+  font-family: Comic Sans;
+  background-color: #808080;
+  color: #7FFF00;
+}
+dd {
+  font-family: Cambria;
+  background-color: #4F4F4F;
+  color: #F0FFFF;
+}
+dt {
+  font-family: Comic Sans;
+  background-color: #363636;
+  color: #00FF00;
+}
+canvas {
+  display: block;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+a {
+  color: #00FF00;
+  text-decoration: none;
+  font-family: Cambria;
+}
+a:hover {
+  cursor: pointer;
+  color: white;
+}
+a :visited {
+  color: green;
+}
+.imagem5 {
+  transition: all 0.5s;
+  border: 10px solid transparent;
+}
+.imagem5:hover {
+  border: 10px solid #7FFF00;
+  border-radius: 50%;
+}
+.imagem5 {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 60px;
+}
+pimg {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 60px;
+  border: solid #7FFF00;
+  background-color: white;
+  margin: 20px;
+}
+.img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 60px;
+  border: solid #7FFF00;
+  background-color: white;
+  margin: 20px;
+}
+p1 {
+  font-family: Cambria;
+  margin: 20px;
+}
+p {
+  color: white;
+  font-family: Cambria;
+  margin: 20px;
+}
+.linkFinal {
+  padding: 20px;
+}
