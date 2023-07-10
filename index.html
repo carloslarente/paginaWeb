@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Página da web Carlos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="Página da web Carlos"
+    content="Segunda Página da web criada por min, desenvolvida enquanto estou estudando programação, esta página foi desenvolvida com o intuito de mostrar projetos criados por min, minhas formaçoes e biografia." />
+  <meta name="keywords" content="biografia, projetos, eletronica, robótica" />
+  <meta name="author" content="Carlos Eduardo Salles Larentes" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+  html,
+  body {
+    margin: 5;
+    padding: 0;
+    color: #00FF00;
+    background-color: black;
+    background-image: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  h1 {
+    font-family: 'Acme', sans-serif;
+    background-color: #363636;
+    color: #7FFF00;
+    padding-left: 20px;
+  }
+
+  h2 {
+    font-family: 'Kanit', sans-serif;
+    background-color: #4F4F4F;
+    color: #7FFF00;
+    padding-left: 20px;
+  }
+
+  canvas {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  a {
+    color: #00FF00;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: white;
+  }
+
+  a :visited {
+    color: gray;
+  }
+
+  p {
+    color: white;
+    Font-family: Consolas, monaco, monospace;
+    margin: 20px;
+  }
+
+  .aprender {
+    text-shadow: 8px 8px 12px #00FF00;
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+  .imagem5 {
+    transition: all .5s;
+    border: 10px solid transparent;
+  }
+
+  .imagem5:hover {
+    border: 10px solid #7FFF00;
+    border-radius: 50%;
+  }
+
+  .imagem5 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 60px;
+  }
+
+  .img {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 60px;
+    border: solid #7FFF00;
+
+  }
+
+  .img {
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  pimg {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 60px;
+    border: solid white;
+    background-color: #363636;
+    margin: 20px;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 8px 8px 12px rgb(0, 255, 128);
+
+  }
+
+  .linkFinal {
+    padding: 20px;
+  }
+
+  .cop {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100%S;
+  }
+
+  .cop {
+    text-shadow: 8px 8px 12px rgb(0, 255, 128);
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 15%,
+        rgba(61, 74, 75) 35%,
+        rgba(236, 244, 245) 50%);
+  }
+
+  .meio {
+    background: url(imagens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+
+<body>
+  <hearder>
+    <div class="meio">
+      <h1>Página da web do <strong>Carlos</strong></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="biografia.html">Mais sobre min</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="formacoes.html">Formações</a></li>
+        </ul>
+      </nav>
+
+      <img class="imagem5" src="carrodrift.jpg" alt="imagem de perfil" />
+      <pimg>Carlos Eduardo Salles Larentes</pimg>
+    </div>
+  </hearder>
+  <main>
+
+    <div class="como fiz">
+      <p>
+        <strong>Imagem feita por I.A do site<a href="https://www.bing.com/create" target="_blank">
+            Imagem creator</a>
+          do navegador
+          <a href="https://www.bing.com/?cc=br" target="_blank">
+            Microsoft Bing</a></strong>
+      </p>
+      <p>Linguagem português(PT-BR)</p>
+      <br />
+      <h2>Como fiz essa página</h2>
+      <p>
+        Projeto desenvolvido e realizado com estudos realizados com as
+        prataformas:
+      </p>
+      <ul>
+        <li><a href="https://www.alura.com.br/" target="_blank">Alura</a></li>
+        <li><a href="https://mimo.org/" target="_blank">Mimo</a></li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=n_Etdr7Dbjs" target="_blank">canal do youtube: Adriana Saty</a>
+        </li>
+        <li><a href="https://www.ev.org.br/" target="_blank">Fundação bradesco</a></li>
+        <li><a href="https://cursa.app/pt" target="_blank">Cursa</a></li>
+      </ul>
+    </div>
+    <div class="plataformas">
+      <p>Nessas plataformas eu estudei sobre como:</p>
+      <ul>
+        <p class="aprender">
+          1- aprender a usar e manusear HTMl, CSS, Java Script
+        </p>
+        <br />
+        <p class="aprender">
+          2- aprender a desenvolver um site e como ultiliza-lo
+        </p>
+        <br />
+        <p class="aprender">
+          3- desenvolver uma lógica de programação e ultilizar do pensamento
+          computacional para resolver problemas(dividindo ele em problemas
+          menores fáceis de resolver)
+        </p>
+      </ul>
+      <h2>Porque eu fiz essa página</h2>
+      <p>
+        Eu fiz essa Página para poder compartilhar meus projetos desenvolvidos
+        e poder ganhar criticas como sobre como posso melhorar meus projetos e
+        sobre como posso me tornar um prossional melhor
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div class="links">
+      <h2>As minhas midias:</h2>
+      <p>
+        *Nelas você pode se comunicar comigo e me dar dicas sobre como posso
+        melhorar meus projetos e pedir informações sobre alguma dúvida
+      </p>
+      <img class="img" src="discord.jpg" alt="discord logo" />
+      <p>
+        <a href="https://discord.com/" target="_blank"><strong>Discord</strong></a>: EusoUmior#2487
+      </p>
+      <img class="img" src="github.jpg" alt="github logo" />
+      <p>
+        <a href="https://github.com/" target="_blank"><strong>github</strong></a>: carloslarente
+      </p>
+      <p>
+        <a href="https://github.com/carloslarente" target="_blank">Meu perfil no Github
+        </a>
+      </p>
+      <img class="img" src="Email.png" alt="email logo" />
+      <p>
+        <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank"><strong>Gmail</strong> </a>:
+        salleslarentescarloseduardo@gmail.com
+      </p>
+      <img class="img" src="youtube.png" alt="youtube logo" />
+      <p>
+        <a href="https://www.youtube.com/" target="_blank"><strong>Youtube</strong></a>: CARLOS EDUARDO SALLES LARENTES
+      </p>
+      <p>@carloseduardosalleslarente2025</p>
+      <a class="linkFinal" href="https://www.youtube.com/channel/UCvYhpd41LixfaEn2cd8shXA" target="_blank">Link do meu
+        canal</a>
+    </div>
+  </footer>
+  <div class="cop">
+    <p>site criado por; &nbsp; &nbsp; &nbsp; Carlos Eduardo Salles Larentes
+      <br>
+      &copy;<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR" target="_blank">
+        Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>
+    </p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Página da web Carlos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="Página da web Carlos"
+    content="Segunda Página da web criada por min, desenvolvida enquanto estou estudando programação, esta página foi desenvolvida com o intuito de mostrar projetos criados por min, minhas formaçoes e biografia." />
+  <meta name="keywords" content="biografia, projetos, eletronica, robótica" />
+  <meta name="author" content="Carlos Eduardo Salles Larentes" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+  html,
+  body {
+    margin: 5;
+    padding: 0;
+    color: #00FF00;
+    background-color: black;
+    background-image: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  h1 {
+    font-family: 'Acme', sans-serif;
+    background-color: #363636;
+    color: #7FFF00;
+    padding-left: 20px;
+  }
+
+  h2 {
+    font-family: 'Kanit', sans-serif;
+    background-color: #4F4F4F;
+    color: #00FF00;
+    padding-left: 20px;
+  }
+
+  h3 {
+    font-family: 'Kanit', sans-serif;
+    background-color: #696969;
+    color: #7FFF00;
+    padding-left: 20px;
+  }
+
+  h4 {
+    font-family: 'Kanit', sans-serif;
+    background-color: #808080;
+    color: #7FFF00;
+    padding-left: 20px;
+  }
+
+  dd {
+    font-family: Cambria;
+    background-color: #4F4F4F;
+    color: #F0FFFF;
+  }
+
+  dt {
+    font-family: Comic Sans;
+    background-color: #363636;
+    color: #00FF00;
+  }
+
+  canvas {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  a {
+    color: #7FFF00;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  a :visited {
+    color: gray;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: white;
+  }
+
+  .conteudoPrincipal a {
+    margin-left: 50px;
+  }
+
+  .link {
+    color: white;
+  }
+
+  .imagem5 {
+    transition: all .5s;
+    border: 10px solid transparent;
+  }
+
+  .imagem5:hover {
+    border: 10px solid #7FFF00;
+    border-radius: 50%;
+  }
+
+  .imagem5 {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 60px;
+  }
+
+
+  p {
+    color: #7FFF00;
+    Font-family: Consolas, monaco, monospace;
+    margin: 20px;
+
+  }
+
+  pimg {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 60px;
+    border: solid white;
+    background-color: #363636;
+    margin: 20px;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 8px 8px 12px rgb(0, 255, 128);
+
+  }
+
+  .cop {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100%S;
+  }
+
+  .cop {
+    text-shadow: 8px 8px 12px rgb(0, 255, 128);
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 15%,
+        rgba(61, 74, 75) 35%,
+        rgba(236, 244, 245) 50%);
+  }
+
+  .meio {
+    background: url(imagens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+
+<body>
+  <hearder>
+    <div class="meio">
+      <h1>Página da web do <strong>Carlos</strong></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="biografia.html">Mais sobre min</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="formacoes.html">Formações</a></li>
+        </ul>
+      </nav>
+
+      <img class="imagem5" src="carrodrift.jpg" alt="imagem de perfil" />
+      <pimg>Carlos Eduardo Salles Larentes</pimg>
+    </div>
+  </hearder>
+  <main>
+    <div class="conteudoPrincipal">
+      <h2>Projetos sobre eletrônica</h2>
+      <nav>
+        <a class="link" href="eletronica/eletronica.html">projetos</a>
+      </nav>
+      <h2>Projetos sobre robótica</h2>
+      <nav>
+        <a class="link" href="robotica/robotica.html">projetos</a>
+      </nav>
+      <h2>Projetos sobre física</h2>
+      <nav>
+        <a class="link" href="fisica/fisica.html">projetos</a>
+      </nav>
+      <h2>Projetos sobre química</h2>
+      <nav>
+        <a class="link" href="quimica/quimica.html">projetos</a>
+      </nav>
+      <h2>Outros projetos</h2>
+      <nav>
+        <a class="link" href="outros/outros.html">projetos</a>
+      </nav>
+    </div>
+  </main>
+
+  <div>
+    <footer>
+      <div class="cop">
+        <p>site criado por; &nbsp; &nbsp; &nbsp; Carlos Eduardo Salles Larentes
+          <br>
+          &copy;<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR" target="_blank">
+            Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

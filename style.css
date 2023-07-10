@@ -1,0 +1,130 @@
+html,
+body {
+  margin: 5;
+  padding: 0;
+  color: #00FF00;
+  background-color: black;
+  background-image: url(fundo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.aprender {
+
+  color: #7FFF00;
+  Font-family: Dejavu Sans, Arial, Verdana, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  background-color: #363636;
+  color: #7FFF00;
+}
+
+h2 {
+  Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: #4F4F4F;
+  color: #00FF00;
+}
+
+h3 {
+  Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: #696969;
+  color: #7FFF00;
+}
+
+h4 {
+  Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: #808080;
+  color: #7FFF00;
+}
+
+dd {
+  Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  background-color: #4F4F4F;
+  color: #00FF00;
+  padding: 10px;
+}
+
+dt {
+  Font-family: Impact, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+  background-color: #363636;
+  color: #7CFC00;
+  padding: 20px;
+}
+
+canvas {
+  display: block;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  color: #00FF00;
+  text-decoration: none;
+  Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+a :visited {
+  color: gray;
+}
+
+.imagem5 {
+  transition: all .5s;
+  border: 10px solid transparent;
+}
+
+.imagem5:hover {
+  border: 10px solid #7FFF00;
+  border-radius: 50%;
+}
+
+.imagem5 {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 60px;
+}
+
+pimg {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 60px;
+  border: solid #7FFF00;
+  background-color: white;
+  margin: 20px;
+}
+
+.cop {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 100%S;
+}
+
+.cop {
+  text-shadow: 8px 8px 12px blue;
+  color: #ffffff;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 15%,
+      rgba(95, 158, 160, 1) 35%,
+      rgba(176, 224, 230, 1) 50%);
+}
+
+p {
+  color: white;
+  Font-family: Consolas, monaco, monospace;
+  margin: 20px;
+}
