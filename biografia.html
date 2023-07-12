@@ -6,12 +6,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css" />
+
   <meta charset="utf-8" />
   <meta name="Página da web Carlos"
     content="Segunda Página da web criada por min, desenvolvida enquanto estou estudando programação, esta página foi desenvolvida com o intuito de mostrar projetos criados por min, minhas formaçoes e biografia." />
   <meta name="keywords" content="biografia, projetos, eletronica, robótica" />
   <meta name="author" content="Carlos Eduardo Salles Larentes" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@1,700&display=swap');
@@ -20,6 +21,7 @@
 
     html,
     body {
+      text-align: justify;
       margin: 5;
       padding: 0;
       color: #00FF00;
@@ -72,6 +74,7 @@
       background-color: transparent;
       color: #ffffff;
       text-align: center;
+      letter-spacing: 1pt;
     }
 
     #resalt {
@@ -168,177 +171,187 @@
       background-size: cover;
       background-position: center;
     }
+
+    #icone {
+      width: 100px;
+      height: 100px;
+      display: block;
+      float: right;
+      margin-right: 50px;
+      padding: 5px;
+      box-shadow: 0px 5px 0px #48adff;
+    }
   </style>
 </head>
 
 <body>
-  <div>
-    <hearder>
-      <div class="meio">
-        <h1>Página da web do <strong>Carlos</strong></h1>
-        <nav>
-          <ul>
-            <li><a href="index.html">Página inicial</a></li>
-            <li><a href="biografia.html">Mais sobre min</a></li>
-            <li><a href="projetos.html">Projetos</a></li>
-            <li><a href="formacoes.html">Formações</a></li>
-          </ul>
-        </nav>
+  <hearder>
+    <div class="meio">
+      <h1>Página da web do <strong>Carlos</strong></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Página inicial</a></li>
+          <li><a href="biografia.html">Mais sobre min</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="formacoes.html">Formações</a></li>
+        </ul>
+        <img id="icone" src="livro.png">
+      </nav>
 
-        <img class="imagem5" src="carrodrift.jpg" alt="imagem de perfil" />
-        <pimg>Carlos Eduardo Salles Larentes</pimg>
-      </div>
-    </hearder>
-    <main>
-      <h2>Quem sou eu</h2>
-      <p>
-        Olá me chamo Carlos, moro no Brasil, falo dois idiomas: Português do
-        Brazil e estou aprendendo o idioma do Inglês.
-      </p>
-      <p>
-        Moro em uma cidade pequena com poucos recursos, mas não deixei isso me
-        abalar, comecei a demostrar minha vontade por aprender, estava sempre
-        me destacando estre meus amigos que só queriam saber de brincadeiras.
-      </p>
-      <h3>Oque faço no meu dia a dia</h3>
-      <p>
-        Tenho 15 anos e trabalho como ciêntista desenvolvendo meus projetos no
-        meu pequeno laboratório, tambem estou começando na programação
-        desenvolvendo meus pequenos sites e jogos.
-        <br />
-      <p>Tabem gosto muito de jogar xadez acho que esse jogo pode nos ajudar de muitas formas
-        seja mentalmente ou pisicologicamente.
-        <br>
-        Já ganhei um torneio escolar de xadrez
-      </p>
-      <figure>
-        <img class="imagem5" src="medalha2.jpg" alt="imagem de medalha de xadrez">
-        <figcaption>imagem da medalha ganhada no torneio escolar</figcaption>
-      </figure>
-      </p>
-      <h3>Oque estou estudando</h3>
-      <p>
-        Estou estudando o ensino médio, e faço alguns cursos sobre eletronica,
-        programação, informatica, e robótica
-      </p>
-      <p>
-        Sou uma pessoa que gosta muito de estudar, sou muito criativo, e estou
-        sempre tentando dar o meu melhor
-      </p>
-      <h2>Meus hobbys (o que mais gosto de fazer)</h2>
-      <p>
-        Como já disse anteriormente sou uma pessoa que gosta muito de estudar,
-        por isso sempre estou tentando aprender algo novo
-      </p>
-      <p>
-        Algo a mais que realmente gosto muito é de desenvolver projetos, sou
-        um cientista e progamador e estou sempre desenvolvendo um projeto como
-        por exemplo: projetos com eletronica, robótica, eletricidade,
-        programação e etc.
-      </p>
-      <p>
-        Gosto de ser inovador tentar coisas novas, nunca as mesmas idéias
-        sempre com alguma atualização.
-      </p>
-      <h2>Como comecei minha carreira</h2>
-      <h3>O primeiro contato com a ciência</h3>
-      <p>
-        Como posso explicar quem sou hoje sem mensionar meu primo e meu melhor
-        amigo Pedro Gabriel, uma pessoa que sempre esteve por min, seja para
-        me ajudar em projetos ou nos divertir com a eletronica nós sempre
-        estivemos juntos.
-      </p>
-      <p>
-        Antes de começar a pesquisar sobre robótica eu e meu primo ja se
-        divertiamos juntos seja jogando bola, ou brincando.
-        <br />
-        Mas por algum momento começamos a adimirar o trabalho do meu tio que
-        gostava muito de eletronica, meu primo aprendeu primeiro, quando
-        aprendi eletronica ele ja sabia eletronica onde observava meu primo
-        ligando LEDS, motores,
-      </p>
-      <h4>Meu primeirop projeto</h4>
-      <p>
-        Tudo tem um começo e o meu começo foi com a eletronica, onde todpos os
-        dias observavca meu primo e um dia decidi tentar aprender, fui embora
-        e voltei no outro dia na casa dele com um porta pilhas retirado de uma
-        boneca e um motor retirado de um DVD, foi meu primeiro projeto e o que
-        deu inicio a quem sou hoje.
-      </p>
-      <h3>Minha evolução</h3>
-      <p>
-        E pensar que parece ontem que eu estava aprendendo eletronica, hoje
-        tenho diversos projetos de eletronica, robótica, e programação tenho
-        um laboratório que de póuco a pouco foi se tornando o que é hoje, meu
-        primo tambem conseguiu um lugar que ele sempre sonhou em ter para
-        desenvolver seus projetos, e está cada dia se tornando um profissional
-        melhor na área da eletrônica.
-      </p>
-      <h3>Projetros que me orgulho</h3>
-      <p>Dentre os projetos que mais me orgulho podemos listar cinco.</p>
-      <p>
-        *Somente lembrando que todos os projetos são importantes mas esses são
-        os que mais me dediquei a faze-los, tambem são os que mais gostei*
-      </p>
-      <dl>
-        <dt>
-          <strong><em>Carro RC</em></strong>
-        </dt>
-        <dd>
-          <strong>
-            Um projeto que me fez retornar a eletrônica, pois ja estava a
-            alguns meses sem idéias, e essa é uma idéia que me orgulho
-            muito.</strong>
-        </dd>
-        <dt>
-          <strong><em>Avião planador</em></strong>
-        </dt>
-        <dd>
-          <strong>
-            Após muitos anos de pesquisa esse foi um projeto que realmente
-            voou sendo o primeiro o que consegui vooar 11m, e o segundo está
-            em desenvolvimento.</strong>
-        </dd>
-        <dt>
-          <strong><em>Mão robótica</em></strong>
-        </dt>
-        <dd>
-          <strong>
-            Outro projeto que exigiu muita abilidade, estava desenvolvendo
-            esse projeto a um ano e ninalmente consegui realiza-lo.</strong>
-        </dd>
-        <dt>
-          <strong><em>Barco RC</em></strong>
-        </dt>
-        <dd>
-          <strong>
-            Outro projeto que exigiu muitos estudos, foram muitos projetos até
-            realmente um funcionar.</strong>
-        </dd>
-        <dt>
-          <strong><em>Canhão de luz do batman</em></strong>
-        </dt>
-        <dd>
-          <strong>
-            um projeto que sempre busquei evoluir e melhoro ele sempre que
-            posso.</strong>
-        </dd>
-      </dl>
-      <p id="resalt">*Apenas resaltando que esses projetos são 100% caseiros*</p>
-      <h2>Meus sonhos e o que quero me desenvolver</h2>
-      <p>
-        Tenho sonhos de me tornar um grande ciêntista, fazer grandes projetos
-        e cada vez me tornar um proficional melhor.
-        <br /> estou estudando muito e espero conseguir aprender cada ves mais
-        para sempre melhorar e aprender coisas novas.
-        <br />
-        Estou dando o meu melhor para que eu consiga aprender muito e melhorar
-        cada vez mais.
-        <br />
-        estou fazendo mais cursos e melhorando meus projetos para que cada vez
-        mais fique próximo dos meus objetivos.
-      </p>
-    </main>
+      <img class="imagem5" src="carrodrift.jpg" alt="imagem de perfil" />
+      <pimg>Carlos Eduardo Salles Larentes</pimg>
+    </div>
+  </hearder>
+  <main>
+    <h2>Quem sou eu</h2>
+    <p>
+      Olá me chamo Carlos, moro no Brasil, falo dois idiomas: Português do
+      Brazil e estou aprendendo o idioma do Inglês.
+    </p>
+    <p>
+      Moro em uma cidade pequena com poucos recursos, mas não deixei isso me
+      abalar, comecei a demostrar minha vontade por aprender, estava sempre
+      me destacando estre meus amigos que só queriam saber de brincadeiras.
+    </p>
+    <h3>Oque faço no meu dia a dia</h3>
+    <p>
+      Tenho 15 anos e trabalho como ciêntista desenvolvendo meus projetos no
+      meu pequeno laboratório, tambem estou começando na programação
+      desenvolvendo meus pequenos sites e jogos.
+      <br />
+    <p>Tabem gosto muito de jogar xadez acho que esse jogo pode nos ajudar de muitas formas
+      seja mentalmente ou pisicologicamente.
+      <br>
+      Já ganhei um torneio escolar de xadrez
+    </p>
+    <figure>
+      <img class="imagem5" src="medalha2.jpg" alt="imagem de medalha de xadrez">
+      <figcaption>imagem da medalha ganhada no torneio escolar</figcaption>
+    </figure>
+    </p>
+    <h3>Oque estou estudando</h3>
+    <p>
+      Estou estudando o ensino médio, e faço alguns cursos sobre eletronica,
+      programação, informatica, e robótica
+    </p>
+    <p>
+      Sou uma pessoa que gosta muito de estudar, sou muito criativo, e estou
+      sempre tentando dar o meu melhor
+    </p>
+    <h2>Meus hobbys (o que mais gosto de fazer)</h2>
+    <p>
+      Como já disse anteriormente sou uma pessoa que gosta muito de estudar,
+      por isso sempre estou tentando aprender algo novo
+    </p>
+    <p>
+      Algo a mais que realmente gosto muito é de desenvolver projetos, sou
+      um cientista e progamador e estou sempre desenvolvendo um projeto como
+      por exemplo: projetos com eletronica, robótica, eletricidade,
+      programação e etc.
+    </p>
+    <p>
+      Gosto de ser inovador tentar coisas novas, nunca as mesmas idéias
+      sempre com alguma atualização.
+    </p>
+    <h2>Como comecei minha carreira</h2>
+    <h3>O primeiro contato com a ciência</h3>
+    <p>
+      Como posso explicar quem sou hoje sem mensionar meu primo e meu melhor
+      amigo Pedro Gabriel, uma pessoa que sempre esteve por min, seja para
+      me ajudar em projetos ou nos divertir com a eletronica nós sempre
+      estivemos juntos.
+    </p>
+    <p>
+      Antes de começar a pesquisar sobre robótica eu e meu primo ja se
+      divertiamos juntos seja jogando bola, ou brincando.
+      <br />
+      Mas por algum momento começamos a adimirar o trabalho do meu tio que
+      gostava muito de eletronica, meu primo aprendeu primeiro, quando
+      aprendi eletronica ele ja sabia eletronica onde observava meu primo
+      ligando LEDS, motores,
+    </p>
+    <h4>Meu primeirop projeto</h4>
+    <p>
+      Tudo tem um começo e o meu começo foi com a eletronica, onde todpos os
+      dias observavca meu primo e um dia decidi tentar aprender, fui embora
+      e voltei no outro dia na casa dele com um porta pilhas retirado de uma
+      boneca e um motor retirado de um DVD, foi meu primeiro projeto e o que
+      deu inicio a quem sou hoje.
+    </p>
+    <h3>Minha evolução</h3>
+    <p>
+      E pensar que parece ontem que eu estava aprendendo eletronica, hoje
+      tenho diversos projetos de eletronica, robótica, e programação tenho
+      um laboratório que de póuco a pouco foi se tornando o que é hoje, meu
+      primo tambem conseguiu um lugar que ele sempre sonhou em ter para
+      desenvolver seus projetos, e está cada dia se tornando um profissional
+      melhor na área da eletrônica.
+    </p>
+    <h3>Projetros que me orgulho</h3>
+    <p>Dentre os projetos que mais me orgulho podemos listar cinco.</p>
+    <p>
+      *Somente lembrando que todos os projetos são importantes mas esses são
+      os que mais me dediquei a faze-los, tambem são os que mais gostei*
+    </p>
+    <dl>
+      <dt>
+        <strong><em>Carro RC</em></strong>
+      </dt>
+      <dd>
+        <strong>
+          Um projeto que me fez retornar a eletrônica, pois ja estava a
+          alguns meses sem idéias, e essa é uma idéia que me orgulho
+          muito.</strong>
+      </dd>
+      <dt>
+        <strong><em>Avião planador</em></strong>
+      </dt>
+      <dd>
+        <strong>
+          Após muitos anos de pesquisa esse foi um projeto que realmente
+          voou sendo o primeiro o que consegui vooar 11m, e o segundo está
+          em desenvolvimento.</strong>
+      </dd>
+      <dt>
+        <strong><em>Mão robótica</em></strong>
+      </dt>
+      <dd>
+        <strong>
+          Outro projeto que exigiu muita abilidade, estava desenvolvendo
+          esse projeto a um ano e ninalmente consegui realiza-lo.</strong>
+      </dd>
+      <dt>
+        <strong><em>Barco RC</em></strong>
+      </dt>
+      <dd>
+        <strong>
+          Outro projeto que exigiu muitos estudos, foram muitos projetos até
+          realmente um funcionar.</strong>
+      </dd>
+      <dt>
+        <strong><em>Canhão de luz do batman</em></strong>
+      </dt>
+      <dd>
+        <strong>
+          um projeto que sempre busquei evoluir e melhoro ele sempre que
+          posso.</strong>
+      </dd>
+    </dl>
+    <p id="resalt">*Apenas resaltando que esses projetos são 100% caseiros*</p>
+    <h2>Meus sonhos e o que quero me desenvolver</h2>
+    <p>
+      Tenho sonhos de me tornar um grande ciêntista, fazer grandes projetos
+      e cada vez me tornar um proficional melhor.
+      <br /> estou estudando muito e espero conseguir aprender cada ves mais
+      para sempre melhorar e aprender coisas novas.
+      <br />
+      Estou dando o meu melhor para que eu consiga aprender muito e melhorar
+      cada vez mais.
+      <br />
+      estou fazendo mais cursos e melhorando meus projetos para que cada vez
+      mais fique próximo dos meus objetivos.
+    </p>
+  </main>
   </div>
   <div>
     <footer>
